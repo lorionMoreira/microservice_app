@@ -17,4 +17,5 @@ public class Comment {
     private String id;
     private String postId;
     private String content;
+    private String status;
 }

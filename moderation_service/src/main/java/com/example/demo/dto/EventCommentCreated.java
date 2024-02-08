@@ -1,6 +1,4 @@
-package com.example.demo.request;
-
-import com.example.demo.dto.EventCommentCreated;
+package com.example.demo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,7 +9,9 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Event<T> {
-    private String type;
-    private T data;
+public class EventCommentCreated {
+    private String id;
+    private String content;
+    private String postId;
+    private String status;
 }
