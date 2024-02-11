@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package com.example.demo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,11 +7,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
-public class Comment {
-    
+@AllArgsConstructor
+public class EventPostCreated {
     private String id;
-    private String content;
-    private String status;
+    private String title;
 }

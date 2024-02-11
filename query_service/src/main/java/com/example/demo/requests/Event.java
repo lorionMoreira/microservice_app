@@ -1,5 +1,7 @@
 package com.example.demo.requests;
 
+
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +11,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Event {
+public class Event<T> {
     private String type;
-    private EventData data;
+    private T data;
 }
